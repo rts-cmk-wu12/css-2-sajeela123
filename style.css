@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: white;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    margin:  0 2em;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1000px;
+    background-color: #fff;
+  
+}
+
+
+.item{
+display: flex;
+justify-content: space-between;
+
+}
+.items__list{
+   padding-top: 4em; 
+   list-style: none;
+   font-size: small;
+}
+.headeritems__logo{
+      max-width: 300px;
+
+}
+.menu__item--last{
+    padding-top: 4em; 
+   list-style: none; 
+   font-size: small;
+}
+
+
+ .items__link{
+    padding-top: 5em;
+    gap: 2em;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+   column-gap: 2em;
+   list-style: none;
+   font-size: small;
+}
+.menu__link {
+    color: #000;
+    text-decoration: none;
+}
+.menu__span{
+    color: red;
+}
+.section__line {
+    color: lightgray;
+}
+/*******************************main**********************/
+
+.reklamer{
+    background-color:lightgray;
+    
+
+ margin-left: 16em;
+
+    width: 700px;
+
+    height: 150px;
+
+    margin-top: 1em;
+}
+.heading{
+    margin-left: 52em;
+    font-size: xx-small;
+    padding-top: 2em;
+}
+.next__span{
+    color: lightgray;
+}
+.next__heading{
+    margin-left: 26em;
+    padding-top: 0.05em;
+    font-size: large;
+}
+
+.infomation{
+    color: gray;
+    font-size: small;
+    margin-left: 36em;
+}
+.text__box{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+width: 950px;
+margin-right: 8em;
+}
+.caption__text{
+      padding-left: 26em;
+    padding-top: 1em;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: 100;
+}
+.caption__img{
+ 
+    margin-bottom: 6px;
+    max-width: 300em;
+
+
+}
+/**********************/
+
+.udland{
+   display: flex;
+   justify-content: space-between;
+    
+    padding-bottom: 1em;
+  
+   
+}
+
+.udland__heading{
+    padding-left: 12em;
+}
+.udland__date{
+   padding-right: 13em;
+   padding-top: 0.5em;
+}
+
+.fa-envelope{
+    color: gray;
+}
+/**********************/
+.date__komment{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.peter__nygaad{
+    padding-top: 1em;
+    padding-bottom: 3em;
+    font-size: 80%;
+   
+}
+.date1{
+    font-size: smaller;
+    list-style:none ;
+    padding-left: 2em;
+   
+}
+.date2{
+    font-size: smaller;
+    list-style:none ;
+    margin-right: 5em;
+   
+}
+.light__gray{
+    color: rgb(121, 116, 116);
+}
+.transprant{
+    color: #e0dede;
+}
+.fa-square-facebook {
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .fa-at{
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.peter{
+    display: flex;
+ 
+
+}
+.peter__images{
+    border-radius: 70%;
+    width: 50px;
+    padding-top: 0.5em;
+}
+.jakob{
+padding-top: 1.5em;
+font-size: small;
+
+}
+.peter__list{
+    list-style: none;
+    font-size: x-small;
+
+
+}
+.peter__mereinfo{
+    padding-top: 1em;
+    font-size: small;
+}
+/**************************************/
+.udland__heading1{
+   
+    
+    padding-top: 4em;
+    font-size: medium;
+    padding-left: 32em;
+
+}
+.udland__info{
+    padding-left: 41em;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+.click{
+    color: white;
+    background-color: red;
+    border: none;
+padding: 10px 60px;
+text-align: center;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+margin-left: 48em;
+
+}
+.log__ind{
+    margin-left: 48em;
+    font-size: smaller;
+    padding-top: 1em;
+}
+.gray__span{
+    color: gray;
+}
+/***************************************/
+.fik{
+    display: grid;
+  padding-left: 12em;
+  justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 0.5em;
+}
+.heading__arrow{
+    padding-left: 18em;
+}
+.fa-circle-arrow-left, .fa-circle-arrow-right{
+    color: lightgray;
+}
+.top__news{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+padding: 0 10em;
+
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+.news__img{
+    width: 200px;
+}
+.news__info{
+    font-size: smaller;
+    padding-top: 1em;
+}
+
+/**************************************/
+.most__read{
+    display: flex;
+    gap: 2em;
+    padding-bottom: 3em;
+   margin: 0 10em;
+}
+    
+.read__list li {
+    list-style: none;
+    padding-top: 0.5em;
+    
+}
+.read__date{
+  color: lightgray;
+}
+
+.date{
+    padding-bottom: 0.5em;
+}
+.read__page{
+    padding-top: 0.5em;
+}
+
+.read2__heading{
+    padding-left: 25em;
+    
+}
+.read2__info{
+    padding-top: 0.5em;
+    padding-bottom: 4em;
+    font-size: small;
+}
+.read__information{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    
+}
+.abonnement{
+    color: red;
+    font-size: x-small;
+}
+.read__images{
+    width: 200px;
+}
+.abonnement__item{
+    padding-top: 1.2em;
+}
+.read__flere{
+    font-size: medium;
+}
+
+.abonnement__flere{
+    color: lightgray;
+    font-size:small;
+    padding-top: 0.5em;
+}
+
+/************************************/
+.anbefal{
+    display: flex;
+    gap: 2em;
+    padding-bottom: 3em;
+   margin: 0 13em;
+
+}
+.anbefal__info{
+    padding-top: 1em;
+}
+.some__item{
+    display: flex;
+    padding-top: 1em;
+}
+.some__info{
+    font-size: smaller;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+/****************footer****************/
+
+.footer{
+    background-color: lightgray;
+    font-size: small;
+}
+.footer_one{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    padding: 2em;
+    margin-left: 4em;
+    gap: 1em;
+    
+}
+.footer_one ul li{
+    list-style: none;
+}
+
+.avis_footer--heading{
+    padding-bottom: 1em;
+    color: gray;
+}
+.avis_footer--heading2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: gray;
+}
+.footer_pic{
+    max-height: 250px;
+    max-width: 200px;
+    position: relative;
+    top: -4em;
+    z-index: 1;
+}
+
+.info_footer{
+    text-align: center;
+}
+.contact__submit{
+    border: none;
+}
+.last{
+    color:gray;
+}
+.contact{
+    color: gray;
+}
+.contact__submit{
+    color: gray;
+}
